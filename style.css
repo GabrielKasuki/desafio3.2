@@ -1,0 +1,71 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'PassionOne';
+    src: url(fontes/PassionOne-Bold.ttf);
+}
+@font-face {
+    font-family: 'Srirarcha';
+    src: url(fontes/Sriracha-Regular.ttf);
+}
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    
+
+}
+header {
+    text-align: center;
+    height: 200px;
+    background-color: black;
+    color: white;
+}
+
+header h1 {
+    padding-top: 50px;
+    font-family: 'PassionOne', serif;
+    font-size: 3.5em;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 50px;
+    font-family: 'Srirarcha', serif;
+    font-size: 2.5em;
+}
+
+section.imagem {
+    color: white;
+    background-attachment: fixed;
+}
+
+section.imagem p {
+    background-color: rgba(0, 0, 0, 0.427);
+    display: inline-block;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+
+}
+
+section#imagem01 {
+    background-image: url(imagens/background001.jpg);
+    background-position: right center;
+
+}
+
+section#imagem02 {
+    background-image: url(imagens/background002.jpg);
+    background-position: right center;
+}
